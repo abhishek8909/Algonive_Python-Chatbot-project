@@ -1,0 +1,53 @@
+2025-07-13 18:03:54,928 - chatbot - INFO - Initializing Customer Support Chatbot
+2025-07-13 18:03:54,939 - models.nlp_processor - INFO - Intent classifier trained with 45 examples
+2025-07-13 18:03:54,939 - chatbot - INFO - Chatbot initialization complete
+2025-07-13 18:03:55,086 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.125.26:5000
+2025-07-13 18:03:55,087 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 18:03:55,090 - werkzeug - INFO -  * Restarting with stat
+2025-07-13 18:03:58,220 - chatbot - INFO - Initializing Customer Support Chatbot
+2025-07-13 18:03:58,255 - models.nlp_processor - INFO - Intent classifier trained with 45 examples
+2025-07-13 18:03:58,255 - chatbot - INFO - Chatbot initialization complete
+2025-07-13 18:03:58,289 - werkzeug - WARNING -  * Debugger is active!
+2025-07-13 18:03:58,294 - werkzeug - INFO -  * Debugger PIN: 200-166-484
+2025-07-13 18:04:20,313 - werkzeug - INFO - 127.0.0.1 - - [13/Jul/2025 18:04:20] "GET / HTTP/1.1" 200 -
+2025-07-13 18:04:22,143 - werkzeug - INFO - 127.0.0.1 - - [13/Jul/2025 18:04:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-13 18:04:32,376 - chatbot - INFO - Processing message from user web_user_1752410072365: hi...
+2025-07-13 18:04:32,377 - models.nlp_processor - WARNING - Language detection failed: 'TextBlob' object has no attribute 'detect_language'
+2025-07-13 18:04:32,531 - chatbot - INFO - Generated response for user web_user_1752410072365: I'm not sure I understand. Could you please rephrase your question?...
+2025-07-13 18:04:32,532 - werkzeug - INFO - 127.0.0.1 - - [13/Jul/2025 18:04:32] "POST /chat HTTP/1.1" 200 -
+2025-07-13 18:05:01,453 - chatbot - INFO - Processing message from user web_user_1752410101446: technical support...
+2025-07-13 18:05:01,453 - models.nlp_processor - WARNING - Language detection failed: 'TextBlob' object has no attribute 'detect_language'
+2025-07-13 18:05:01,455 - chatbot - INFO - Generated response for user web_user_1752410101446: I'm not sure I understand. Could you please rephrase your question?...
+2025-07-13 18:05:01,456 - werkzeug - INFO - 127.0.0.1 - - [13/Jul/2025 18:05:01] "POST /chat HTTP/1.1" 200 -
+2025-07-13 18:05:12,269 - chatbot - INFO - Processing message from user web_user_1752410112263: Account information...
+2025-07-13 18:05:12,269 - models.nlp_processor - WARNING - Language detection failed: 'TextBlob' object has no attribute 'detect_language'
+2025-07-13 18:05:12,274 - chatbot - INFO - Generated response for user web_user_1752410112263: I'm not sure I understand. Could you please rephrase your question?...
+2025-07-13 18:05:12,275 - werkzeug - INFO - 127.0.0.1 - - [13/Jul/2025 18:05:12] "POST /chat HTTP/1.1" 200 -
+2025-07-13 18:05:19,486 - chatbot - INFO - Processing message from user web_user_1752410119481: k...
+2025-07-13 18:05:19,487 - models.nlp_processor - WARNING - Language detection failed: 'TextBlob' object has no attribute 'detect_language'
+2025-07-13 18:05:19,489 - chatbot - INFO - Generated response for user web_user_1752410119481: I'm not sure I understand. Could you please rephrase your question?...
+2025-07-13 18:05:19,490 - werkzeug - INFO - 127.0.0.1 - - [13/Jul/2025 18:05:19] "POST /chat HTTP/1.1" 200 -
+2025-07-13 18:05:38,914 - chatbot - INFO - Processing message from user web_user_1752410138907: Product information and pricing...
+2025-07-13 18:05:38,914 - models.nlp_processor - WARNING - Language detection failed: 'TextBlob' object has no attribute 'detect_language'
+2025-07-13 18:05:38,916 - chatbot - INFO - Generated response for user web_user_1752410138907: **Laptop Pro 15"**
+Price: $1299.99
+Description: High-performance laptop with 16GB RAM, 512GB SSD, an...
+2025-07-13 18:05:38,918 - werkzeug - INFO - 127.0.0.1 - - [13/Jul/2025 18:05:38] "POST /chat HTTP/1.1" 200 -
+2025-07-13 18:05:50,407 - chatbot - INFO - Processing message from user web_user_1752410150404: Order status and shipping...
+2025-07-13 18:05:50,413 - models.nlp_processor - WARNING - Language detection failed: 'TextBlob' object has no attribute 'detect_language'
+2025-07-13 18:05:50,417 - chatbot - INFO - Generated response for user web_user_1752410150404: Standard shipping takes 3-5 business days. Express shipping takes 1-2 business days. International s...
+2025-07-13 18:05:50,417 - werkzeug - INFO - 127.0.0.1 - - [13/Jul/2025 18:05:50] "POST /chat HTTP/1.1" 200 -
+2025-07-13 18:05:59,568 - werkzeug - INFO - 127.0.0.1 - - [13/Jul/2025 18:05:59] "GET / HTTP/1.1" 200 -
+2025-07-13 18:06:00,806 - werkzeug - INFO - 127.0.0.1 - - [13/Jul/2025 18:06:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-13 18:08:23,514 - werkzeug - INFO - 127.0.0.1 - - [13/Jul/2025 18:08:23] "GET / HTTP/1.1" 200 -
+2025-07-13 18:08:31,991 - chatbot - INFO - Processing message from user web_user_1752410311984: Order status and shipping...
+2025-07-13 18:08:31,991 - models.nlp_processor - WARNING - Language detection failed: 'TextBlob' object has no attribute 'detect_language'
+2025-07-13 18:08:31,996 - chatbot - INFO - Generated response for user web_user_1752410311984: Standard shipping takes 3-5 business days. Express shipping takes 1-2 business days. International s...
+2025-07-13 18:08:31,997 - werkzeug - INFO - 127.0.0.1 - - [13/Jul/2025 18:08:31] "POST /chat HTTP/1.1" 200 -
+2025-07-13 18:08:40,463 - chatbot - INFO - Processing message from user web_user_1752410320459: Order status and shipping...
+2025-07-13 18:08:40,464 - models.nlp_processor - WARNING - Language detection failed: 'TextBlob' object has no attribute 'detect_language'
+2025-07-13 18:08:40,467 - chatbot - INFO - Generated response for user web_user_1752410320459: Standard shipping takes 3-5 business days. Express shipping takes 1-2 business days. International s...
+2025-07-13 18:08:40,468 - werkzeug - INFO - 127.0.0.1 - - [13/Jul/2025 18:08:40] "POST /chat HTTP/1.1" 200 -
